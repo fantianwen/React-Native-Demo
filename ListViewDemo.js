@@ -12,7 +12,6 @@ import {
     TouchableOpacity
 } from 'react-native';
 
-
 var ToastCustomAndroid = require('./ToastCustomAndroid')
 
 const styles = StyleSheet.create({

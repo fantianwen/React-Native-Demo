@@ -202,6 +202,28 @@ export default class Demos extends Component {
                     </TouchableWithoutFeedback>
 
 
+                    <TouchableWithoutFeedback onPress={()=>{
+                       this.props.navigator.push({index:10});
+                       }
+                    }
+                    >
+
+                        <View style={demoStyle.child}>
+
+                            <Text style={demoStyle.textInputStyle}>
+                                RN官方实例Demo-Movies
+                            </Text>
+
+                            <Image style={ demoStyle.imageRightArrow} source={require('./img/ic_tjke_arrow_wx.png')}>
+
+                            </Image>
+
+                        </View>
+
+                    </TouchableWithoutFeedback>
+
+
+
                 </ScrollView>
             </View>
 

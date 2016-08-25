@@ -19,6 +19,7 @@ import ViewPagerAndroidDemo from './ViewPagerAndroidDemo'
 import ListViewDemo from './ListViewDemo'
 import AyncStorageDemo from './AyncStorageDemo'
 import ScreenDemo from './ScreenDemo'
+import MoviewDemo from './MoviewDemo'
 
 var _navigator;
 
@@ -75,6 +76,9 @@ class StudyNavigationApp extends Component {
                                     break;
                                 case 9:
                                     return <ScreenDemo />
+                                    break;
+                                case 10:
+                                    return <MoviewDemo />
                                     break;
                             }
                         }
